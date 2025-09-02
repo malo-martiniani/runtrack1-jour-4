@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="laplateforme.css" rel="stylesheet" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="accueil.html">
+            <img class="logo" src="images/logo_laplateforme_bleu3.png" alt="Logo du site">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="ai-school.html">AI School</a></li>
+                <li><a href="coding-school.html">Coding School</a></li>
+                <li><a href="cyber-security-school.html">Cyber Security School</a></li>
+                <li><a href="executive-education.html">Executive Education</a></li>
+                <li><a href="innovation-lab.html">Innovation Lab</a></li>
+                <li><a href="qui-sommes-nous.html">Qui Sommes Nous</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-content">
+        <div class="contact-info">
+            <h2>Besoin d’un renseignement sur nos cursus, notre accompagnement entreprises, nos projets et actions ? Contactez-nous.</h2>
+            <img class="contact-image" src="images/HP_visual_light.webp" alt="Image de personnes">
+        </div>
+        <form class="contact-form">
+            <div class="form-row">
+                <select name="civilite" id="civilite" required>
+                    <option value="">Civilité*</option>
+                    <option value="mr">M.</option>
+                    <option value="mme">Mme</option>
+                </select>
+                <input type="text" id="prenom" name="prenom" placeholder="Prénom*" required>
+                <input type="text" id="nom" name="nom" placeholder="Nom*" required>
+            </div>
+            
+            <div class="form-row">
+                <input type="email" id="email" name="email" placeholder="E-mail*" required>
+                <input type="tel" id="telephone" name="telephone" placeholder="Téléphone Mobile*" required>
+            </div>
+            <div class="form-row">
+                <select name="motif" id="motif" required>
+                    <option value="">Sélectionner un motif de contact*</option>
+                    <option value="information">Demande d'information</option>
+                    <option value="inscription">Inscription</option>
+                    <option value="entreprise">Partenariat entreprise</option>
+                    <option value="autre">Autre</option>
+                </select>
+            </div>
+            
+            <div class="form-row">
+                <textarea id="message" name="message" placeholder="message*" required></textarea>
+            </div>
+            
+            <div class="form-row checkbox-row">
+                <input type="checkbox" id="accept" name="accept">
+                <label for="accept">J'accepte de recevoir des informations de la part de La Plateforme</label>
+            </div>
+            
+            <p class="legal-notice">
+                Selon l'article L.223-2 du code de la consommation, il est rappelé que le consommateur 
+                peut user de son droit à s'inscrire sur la liste d'opposition au démarchage téléphonique 
+                <a href="http://www.bloctel.gouv.fr">bloctel.gouv.fr</a>
+            </p>
+            
+            <button type="submit" class="submit-btn">Envoyer</button>
+        </form>
+        </div>
+    </div>
+
+</body>
+</html>

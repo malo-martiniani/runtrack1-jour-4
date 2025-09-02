@@ -1,0 +1,265 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(23, 128, 203);
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    max-width: 30%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #1d62a760;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    border: rgb(10, 10, 83) 2px solid;
+    transition: background-color 0.3s ease;
+    background-color: rgba(32, 79, 159, 0.571);
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    box-shadow: #1d62a79d 0px 3px 7px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(10, 10, 83);
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 0px;
+    border: 5px solid #1d62a79d;
+}
+
+.content {
+    padding: 0px 20px;
+}
+.content-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+    
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: white;
+
+}
+
+.in-card {
+    padding-right: 15px;
+    margin : 1px;
+}
+
+.image-people {
+    max-width: 50%;
+    height: auto;
+    border-left: 5px solid #1d62a79d;
+}
+
+.footer {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    flex-direction: column;
+}
+
+.old-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+div.old-footer-laplateforme {
+    width: 500px;
+    margin: 1rem;
+}
+
+.menu-items-footer {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    background-color: var(--bg-footer-copyright);
+}
+
+.main-content-qui-sommes-nous {
+    display: flex;
+    flex-direction: column;
+    border: #1d62a79d solid 5px;
+}
+
+.content-text {
+    padding: 20px;
+    margin: 10px;
+    display: flex ;
+}
+
+.content-description {
+    padding: 10px;
+    margin: 5px;
+    /* border: #1d62a79d solid 5px;
+   border-radius: 4px; */
+   font-size: 18px;
+    color: white;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    border: #1d62a79d solid 5px;
+    border-radius: 4px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.video-container iframe {
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    border-right: #1d62a79d solid 5px;
+    border-radius: 4px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.contact-info {
+    max-width: 800px;
+    width: 100%;
+}
+
+.contact-info h1 {
+    font-size: 2.2em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-info img {
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.required-fields {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    size: 80%;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-row input,
+.form-row select {
+    flex: 1;
+}
+
+.form-row textarea {
+    width: 100%;
+    min-height: 150px;
+    resize: vertical;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.checkbox-row input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.legal-notice {
+    font-size: 0.9em;
+    color: white;
+    margin: 20px 0;
+}
+
+.legal-notice a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.submit-btn {
+    background-color: #ff5c35;
+    color: white;
+    outline: 2px solid #f2e128 ;
+    border: 2px solid #1a1800;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #ee3c14;
+}
