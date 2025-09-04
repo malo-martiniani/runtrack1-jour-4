@@ -46,7 +46,7 @@ nav ul li a:hover {
 .main-content {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    
     padding: 0px;
     border: 5px solid #1d62a79d;
 }
@@ -128,8 +128,7 @@ div.old-footer-laplateforme {
 .content-description {
     padding: 10px;
     margin: 5px;
-    /* border: #1d62a79d solid 5px;
-   border-radius: 4px; */
+   
    font-size: 18px;
     color: white;
 }
